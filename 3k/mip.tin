@@ -657,7 +657,7 @@
 	#REGEX {%0} {~Byron~cries 'OW!!'} {#var mipgag 1};
 	#REGEX {%0} {~%w~pokes %w in the ribs} {#var mipgag 1};
 
-	#NOP Guilds and Areass;
+	#NOP Guilds and Areas;
 	#NOP Bards;
 	#REGEX {%0} {~cracks %w knuckles and gets ready to play for } {#var mipgag 1};
 	#REGEX {%0} {~ceases his performance.} {#var mipgag 1};
@@ -716,7 +716,7 @@
 
 	#NOP Necromancer;
 	#REGEX {%0} {~The~spirit of the beast leaves your body, slightly weakening you.} {#var mipgag 1};
-	#REGEX {%0} {~%w~appears slightly drained.} {#var mipgag 1};
+	#REGEX {%0} {~%*~%*appears slightly drained.} {#var mipgag 1};
 
 	#NOP Party Divvy;
 	#REGEX {%0} {[PARTY] GOLD divvy called by } {#var mipgag 1};
